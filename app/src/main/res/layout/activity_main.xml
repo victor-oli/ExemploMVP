@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.victor.exemplomvp.MainActivity"
+    android:id="@+id/main_layout_main"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <fragment
+        android:name="com.example.victor.exemplomvp.LoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_fragment_1" />
+</LinearLayout>
